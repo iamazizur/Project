@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.images-wrapper {
+    display: flex;
+    height: 200px;
+    /* width: 80%; */
+}
+
+.rate_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rate_stars
+{
+    display: flex;
+}
+
+.unselected{
+    color: red;
+}
+
+.selected {
+    color: green;
+}
